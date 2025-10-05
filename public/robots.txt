@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://getlamaaclean.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow all blog content
+Allow: /blog/
+Allow: /blog/guides/
+
+# Allow all service pages
+Allow: /services/
+
+# Allow all area pages
+Allow: /areas/
+
+# Crawl delay to be respectful
+Crawl-delay: 1

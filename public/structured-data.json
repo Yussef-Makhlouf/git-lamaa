@@ -1,0 +1,217 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://getlamaaclean.com/#organization",
+      "name": "شركة لمعة للنظافة",
+      "url": "https://getlamaaclean.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://getlamaaclean.com/#logo",
+        "inLanguage": "ar-SA",
+        "url": "https://getlamaaclean.com/logo-en.png",
+        "contentUrl": "https://getlamaaclean.com/logo-en.png",
+        "width": 192,
+        "height": 192,
+        "caption": "شركة لمعة للنظافة"
+      },
+      "image": {
+        "@id": "https://getlamaaclean.com/#logo"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "شارع العليا",
+        "addressLocality": "الرياض",
+        "addressRegion": "منطقة الرياض",
+        "postalCode": "12345",
+        "addressCountry": "SA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 24.7136,
+        "longitude": 46.6753
+      },
+      "telephone": "0592425077",
+      "email": "info@getlamaaclean.com",
+      "sameAs": [
+        "https://www.facebook.com/lamaaclean",
+        "https://twitter.com/lamaa_clean",
+        "https://www.instagram.com/lamaaclean",
+        "https://www.linkedin.com/company/lamaaclean"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://getlamaaclean.com/#website",
+      "url": "https://getlamaaclean.com/",
+      "name": "شركة لمعة للنظافة",
+      "description": "نقدم خدمات نظافة احترافية وشاملة في الرياض. تنظيف منازل، فلل، مكاتب، شركات، سجاد، وواجهات.",
+      "publisher": {
+        "@id": "https://getlamaaclean.com/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://getlamaaclean.com/search?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "ar-SA"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://getlamaaclean.com/#webpage",
+      "url": "https://getlamaaclean.com/",
+      "name": "شركة خدمات النظافة الرائدة في الرياض | لمعة للنظافة",
+      "isPartOf": {
+        "@id": "https://getlamaaclean.com/#website"
+      },
+      "about": {
+        "@id": "https://getlamaaclean.com/#organization"
+      },
+      "description": "نقدم خدمات نظافة احترافية وشاملة في الرياض. تنظيف منازل، فلل، مكاتب، شركات، سجاد، وواجهات. خدمات تنظيف بالساعة، عمالة محترفه محترفة، تغطية لجميع أحياء الرياض (شمال، جنوب، شرق، غرب). أسعار تنافسية، وفريق متخصص متاح 24/7. خبرة أكثر من 10 سنوات في مجال النظافة.",
+      "breadcrumb": {
+        "@id": "https://getlamaaclean.com/#breadcrumb"
+      },
+      "inLanguage": "ar-SA",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://getlamaaclean.com/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://getlamaaclean.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "الرئيسية",
+          "item": "https://getlamaaclean.com/"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://getlamaaclean.com/#service",
+      "name": "خدمات النظافة الشاملة",
+      "url": "https://getlamaaclean.com/services",
+      "provider": {
+        "@id": "https://getlamaaclean.com/#organization"
+      },
+      "description": "نقدم خدمات نظافة احترافية وشاملة في الرياض. خدمات التنظيف الأساسية، تنظيف المنازل والفلل، تنظيف المكاتب والشركات، تنظيف السجاد والمفروشات، تنظيف الواجهات، تنظيف ما بعد البناء، خدمات تنظيف متخصصة، وعقود نظافة شهرية وسنوية.",
+      "areaServed": {
+        "@type": "City",
+        "name": "الرياض"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "خدمات النظافة",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "تنظيف المنازل والفلل",
+              "description": "خدمات تنظيف شقق وأدوار، تنظيف الفلل الجديدة، تنظيف قصور، تنظيف المنازل المفروشة، تنظيف فلل قبل السكن"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "تنظيف المكاتب والشركات",
+              "description": "تنظيف مكاتب وشركات، تنظيف المجمعات التجارية، تنظيف المدارس والجامعات، تنظيف المستشفيات والعيادات"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "تنظيف المفروشات والأثاث",
+              "description": "غسيل كنب بالبخار، تنظيف موكيت مساجد، تنظيف ستائر معلقة، غسيل سجاد وإزالة البقع، تنظيف مجالس عربية"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "تنظيف الواجهات",
+              "description": "تنظيف واجهات حجر، تنظيف واجهات كلادينج، غسيل واجهات الأبراج الزجاجية"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "خدمات تنظيف متخصصة",
+              "description": "غسيل مكيفات سبليت، تنظيف خزانات المياه، تنظيف وتعقيم، التنظيف العميق، تنظيف مسابح"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "عقود النظافة",
+              "description": "عقود نظافة شهرية، عقود نظافة سنوية للشركات، عقد تنظيف دوري للمنازل، عقود الصيانة والنظافة المتكاملة"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://getlamaaclean.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "ما هي خدمات النظافة التي تقدمها شركة لمعة؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "تقدم شركة لمعة مجموعة واسعة من خدمات النظافة تشمل تنظيف المنازل والفلل، تنظيف المكاتب والشركات، تنظيف السجاد والمفروشات، تنظيف الواجهات، تنظيف ما بعد البناء، غسيل مكيفات، تنظيف خزانات، وخدمات التنظيف المتخصصة الأخرى."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل تقدمون خدمات في جميع أنحاء الرياض؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم، نقدم خدماتنا في جميع أنحاء الرياض وضواحيها، بما في ذلك شمال وجنوب وشرق وغرب الرياض، مع تغطية شاملة لجميع الأحياء."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "كيف يمكنني حجز خدمة تنظيف؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "يمكنك حجز خدمة تنظيف عن طريق الاتصال بنا على الرقم 0592425077 أو من خلال موقعنا الإلكتروني أو عبر واتساب."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "هل تقدمون عقود نظافة دورية؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نعم، نقدم عقود نظافة شهرية وسنوية للمنازل والشركات والمجمعات السكنية والتجارية، مع خدمات متكاملة تناسب احتياجاتكم."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ما هي تقنيات التنظيف التي تستخدمونها؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نستخدم أحدث تقنيات التنظيف مثل التنظيف بالبخار الحراري، التنظيف بالرغوة الجافة، التنظيف بالأوزون، والتنظيف باستخدام مواد صديقة للبيئة، مع معدات حديثة ومتطورة."
+          }
+        }
+      ]
+    }
+  ]
+}
