@@ -57,7 +57,7 @@ const blogPosts = [
     category: 'تنظيف موسمي',
     date: '2024-12-15',
     author: 'فريق لمعة',
-    image: '/cover.png',
+    image: '/clean-water.png',
     featured: false
   },
   {
@@ -69,7 +69,7 @@ const blogPosts = [
     category: 'تنظيف موسمي',
     date: '2024-03-10',
     author: 'فريق لمعة',
-    image: '/cover.png',
+    image: '/clean-home.png',
     featured: false
   },
   {
@@ -81,7 +81,7 @@ const blogPosts = [
     category: 'تنظيف موسمي',
     date: '2024-02-05',
     author: 'فريق لمعة',
-    image: '/cover.png',
+    image: '/clean-deep.png',
     featured: false
   },
   {
@@ -93,7 +93,7 @@ const blogPosts = [
     category: 'تنظيف ديني',
     date: '2024-01-20',
     author: 'فريق لمعة',
-    image: '/cover.png',
+    image: '/clean-company.png',
     featured: false
   },
   {
@@ -286,14 +286,15 @@ export default function BlogPage() {
             {blogPosts.map((post) => (
               <article key={post.id} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
                 {/* Image */}
-                <div className="relative h-48">
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-900/60 to-blue-600/60 z-10"></div>
-                  <div className="absolute inset-0 z-20 flex items-center justify-center">
-                    <div className="text-center text-white">
-                      <Clock className="w-8 h-8 mx-auto mb-2" />
-                      <div className="text-sm font-medium">وقت القراءة</div>
-                      <div className="text-lg font-bold">{post.readTime}</div>
-                    </div>
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src={post.image} 
+                    alt={post.title}
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                  <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 flex items-center gap-2">
+                    <Clock className="w-4 h-4 text-blue-600" />
+                    <span className="text-sm font-medium text-blue-900">{post.readTime}</span>
                   </div>
                 </div>
 
