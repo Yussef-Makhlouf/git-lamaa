@@ -6,7 +6,7 @@ const blogPosts = [
   {
     title: 'تنظيف المنزل في الشتاء بالرياض',
     excerpt: 'احمِ منزلك من الرطوبة، العفن، والغبار في الشتاء! دليل خبير لتنظيف وصيانة المنزل خلال فصل الشتاء في الرياض.',
-    image: '/clean-home.png',
+    image: '/clean-water.png',
     date: '15 ديسمبر 2024',
     author: 'فريق لمعة',
     slug: 'seasonal/winter-cleaning',
@@ -24,7 +24,7 @@ const blogPosts = [
   {
     title: 'تنظيف المنزل قبل رمضان',
     excerpt: 'استعد لرمضان بمنزل نظيف ومريح! دليل خطوة بخطوة لتنظيف المنزل قبل رمضان في الرياض مع نصائح خبراء.',
-    image: '/clean-home.png',
+    image: '/clean-deep.png',
     date: '5 فبراير 2024',
     author: 'فريق لمعة',
     slug: 'seasonal/ramadan-cleaning',
@@ -33,7 +33,7 @@ const blogPosts = [
   {
     title: 'دليل تنظيف المساجد والمصليات',
     excerpt: 'دليل متخصص لتنظيف وصيانة المساجد والمصليات. نصائح عملية للحفاظ على طهارة وقداسة بيوت الله.',
-    image: '/clean-home.png',
+    image: '/clean-company.png',
     date: '20 يناير 2024',
     author: 'فريق لمعة',
     slug: 'seasonal/mosque-cleaning',
