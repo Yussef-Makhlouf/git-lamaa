@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description: 'دليلك الشامل من خبراء لمعة للنظافة: نصائح عملية، جداول تنظيف ذكية، وحلول لمشاكل التنظيف الشائعة في المنازل والمكاتب بالرياض.',
     type: 'website',
     locale: 'ar_SA',
-    url: 'https://getlamaaclean.com/blog', // يُفضّل إضافته لتحسين SEO
+    url: 'https://getlamaaclean.com/blog',
     siteName: 'لمعة للنظافة',
   },
   twitter: {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: 'منزل نظيف = حياة صحية. تعلّم أسرار التنظيف الاحترافي من خبراء الرياض.',
   },
   alternates: {
-    canonical: 'https://getlamaaclean.com/blog', // مهم لتجنب محتوى مكرر
+    canonical: 'https://getlamaaclean.com/blog',
   },
 }
 
@@ -154,6 +154,18 @@ const blogPosts = [
     date: '2024-01-12',
     author: 'فريق الخدمات',
     image: '/cover.png',
+    featured: false
+  },
+  {
+    id: 11,
+    slug: 'commercial/office-cleaning',
+    title: 'تنظيف المكاتب والمساحات التجارية',
+    excerpt: 'دليل شامل لإنشاء بيئة عمل نظيفة وصحية ومنتجة. تعلم أفضل الممارسات لتنظيف المكاتب والمساحات التجارية بطريقة احترافية.',
+    readTime: '20 دقيقة',
+    category: 'تنظيف تجاري',
+    date: '2025-10-05',
+    author: 'فريق لمعة',
+    image: '/clean-office.png',
     featured: false
   }
 ]

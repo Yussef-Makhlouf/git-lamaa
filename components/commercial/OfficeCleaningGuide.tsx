@@ -13,7 +13,7 @@ export default function OfficeCleaningGuide() {
               <Building className="h-8 w-8 text-blue-300" />
               <span className="text-blue-300 font-semibold text-lg">بيئة العمل المثالية</span>
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white" >
               تنظيف المكاتب والمساحات التجارية
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
@@ -373,14 +373,14 @@ export default function OfficeCleaningGuide() {
       <section className="py-20 bg-gradient-to-r from-gray-900 to-blue-900 text-white">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-8">
+            <h2 className="text-3xl font-bold mb-8 text-white">
               نصائح احترافية للمكاتب
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="bg-white/10 p-6 rounded-2xl">
                 <Briefcase className="w-8 h-8 text-blue-300 mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-3">التنظيم المستمر</h3>
+                <h3 className="text-xl font-bold mb-3 text-white">التنظيم المستمر</h3>
                 <p className="text-blue-100">
                   حافظ على ترتيب المكتب يومياً لتجنب تراكم الفوضى
                 </p>
@@ -388,7 +388,7 @@ export default function OfficeCleaningGuide() {
               
               <div className="bg-white/10 p-6 rounded-2xl">
                 <TrendingUp className="w-8 h-8 text-green-300 mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-3">الاستثمار في الجودة</h3>
+                <h3 className="text-xl font-bold mb-3 text-white">الاستثمار في الجودة</h3>
                 <p className="text-blue-100">
                   استخدم أدوات ومواد تنظيف عالية الجودة لنتائج أفضل
                 </p>
@@ -396,7 +396,7 @@ export default function OfficeCleaningGuide() {
               
               <div className="bg-white/10 p-6 rounded-2xl">
                 <Users className="w-8 h-8 text-yellow-300 mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-3">إشراك الفريق</h3>
+                <h3 className="text-xl font-bold mb-3 text-white">إشراك الفريق</h3>
                 <p className="text-blue-100">
                   شجع الموظفين على المشاركة في الحفاظ على نظافة المكان
                 </p>
